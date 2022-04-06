@@ -26,7 +26,7 @@ class Grupo:
              self.listadoAlumnos = [alumno]
         else:
             self.listadoAlumnos = [alumno]
-            self.listadoAlumnos = self.listadoAlumnos + self.lista
+            self.listadoAlumnos = self.lista+self.listadoAlumnos
             #self.listadoAlumnos.append(alumno)
             #self.lista=[]
             #self.lista.append(alumno)
